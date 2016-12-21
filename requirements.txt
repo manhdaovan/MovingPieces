@@ -1,0 +1,2 @@
+virtualenv
+pillow==3.0.0
