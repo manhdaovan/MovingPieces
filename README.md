@@ -14,6 +14,8 @@ Run & Fun
 ---------
 ```
 $python cmdi.py
+or
+$python cmdi.py -f /abs/path/to/img_file.png
 ```
 
 Contributing

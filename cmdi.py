@@ -11,11 +11,11 @@ def print_help(help_string=None):
     $python path/to/cmdi.py [OPTIONS]
     With OPTIONS:
     -h --help  show help string
-    -f --file  absolute path to input file
+    -f         absolute path to input file
                If no file input, a random image from samples will be selected.
     Eg:
-    $python somewhere/cmdi.py --help
-    $python somewhere/cmdi.py --file /absolute/path/image_file.png
+    $python somewhere/cmdi.py -h
+    $python somewhere/cmdi.py -f /absolute/path/image_file.png
     Or with no param(s):
     $python somewhere/cmdi.py
     """ if not help_string else help_string
